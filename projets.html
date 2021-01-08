@@ -1,49 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Mes projets</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
-    <script src='scripts/main.js'></script>
-</head>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Projets</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <!-- Bootstrap theme 'Neon Glow' by Alexander Rechsteiner - https://hackerthemes.com/bootstrap-themes/neon-glow/ -->
+
+        <link type="text/css"  rel="stylesheet" href="styles/bs-theme-neon-glow/bootstrap4-neon-glow.min.css">
+
+        <link type="text/css" rel="stylesheet" href="styles/bs-theme-neon-glow/bootstrap-theme-demo-styles.css">
+        <link type="text/css" rel="stylesheet" href="styles/bs-theme-neon-glow/fontawesome.v5.6.3-all.css">
+
+        <link type="text/css"  href="styles/bs-theme-neon-glow/googleapis-family-roboto.css" rel="stylesheet">
+        <link type="text/css" rel='stylesheet' href='styles/bs-theme-neon-glow/hack-v2.020.min.css'>
+
+        <!-- <script type="text/javascript" src="scripts/jquery.-3.5.6.min.js"></script> -->
+        <script src="scripts/bs5/bootstrap.min.js"></script>
+
+        <script src='scripts/main.js'></script>
+
+        <script>isDarkTheme=false;</script>
+    </head>
 <body>
     <header>
-        <div class="haut-page">
-            <div class="haut-gauche">
-                <h1>Franck<br/>
-                    &nbsp;<br/>
-                    &nbsp;<br/>
-                </h1>
-                <!-- <p>Haut- gauche</p> -->
-                <p class="moto">
-                    <span class="firstLetter">M</span>ethodology<br/>
-                    <span class="firstLetter">O</span>rganization<br/>
-                    <span class="firstLetter">R</span>.O.I.<br/>
-                    <span class="firstLetter">E</span>asy<br/>
-                    <span class="firstLetter">A</span>head<br/>
-                    <span class="firstLetter">U</span>seful
-                </p>
-            </div>
-
-            <div class="haut-droite">
-                <!-- <p>Haut- droite</p> -->
-                <p><a href="docs/resume.pdf" title="CV download">Télécharger mon CV</a></p>
-                <p><a href="#" title="Partager">Partager</a></p>
-            </div>
-        </div>
-        <nav class="navbar">
-            <ul>
-                <li class="navbar-item active"><a href="index.html">Accueil</a></li>
-                <li class="navbar-item active"><a href="cv.html">Mon CV</a></li>
-                <li class="navbar-item active"><a href="projets.html">Projets r&eacute;alis&eacute;s</a></li>
-                <li class="navbar-item active"><a href="contact.html">Contact</a></li>
+        <nav class="container">
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="cv.html">Mon CV</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="projets.html">Projets r&eacute;alis&eacute;s</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
     </header>
 
-    <h1>Les projets réalisés</h1>
+    <div class="container ht-tm-container" id="CntMain">
+        <h1 class="alert-primary text-center">Les projets réalisés</h1>
+
+    </div>
 </body>
 </html>

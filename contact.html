@@ -25,7 +25,7 @@
     </head>
 <body>
     <header>
-        <nav class="">
+        <nav class="container">
             <ul class="nav nav-tabs">
                 <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                 <li class="nav-item"><a class="nav-link" href="cv.html">Mon CV</a></li>
@@ -36,30 +36,37 @@
 
     </header>
 
-    <h1>Contact</h1>
+    <div class="container ht-tm-container" id="CntMain">
+        <h1 class="alert-primary text-center">Contact</h1>
 
-    <p>Envoyez moi votre demande.</p>
-    <form class="contact-box" action="mailto:f.moreau@mailcatch.com&subject=ContactDuSite&bcc=emmanuel.macron@mailcatch.com" method="post" name="basic_form" enctype="text/plain">
-        <fieldset>
-        <div class="user-box">
-            <input type="text" name="name" size="50" value="Votre nom complet" />
-        </div>
+        <p>Vous pouvez me contacter. Ya des gens ki'ont essayé...</p>
+     
+        <div class="flex card" id="CtnContact">
+            <div class="contact card-body">
+                <form class="contact-box" action="mailto:franck@mailcatch.com&subject=ContactDuSite&bcc=emmanuel.macron@mailcatch.com" method="post" name="basic_form" enctype="text/plain">
+                    <fieldset>
+                        <h2 class="alert-primary">Contactez-moi !</h2>
+                    <div class="user-box">
+                        <input class="form-control" type="text" name="name" size="30" value="Votre nom complet" />
+                    </div>
 
-        <div class="user-box">
-            <input type="text" name="email" size="50" value="Votre email" />
-            <abbr title="required">*</abbr>
-        </div>
+                    <div class="user-box">
+                        <input class="form-control" type="text" name="email" size="30" value="Votre email" />
+                    </div>
 
-        <div class="user-box">
-            <textarea rows="5" cols="50">Je vous contacte ...</textarea>
-        </div>
+                    <div class="user-box">
+                        <textarea class="form-control" rows="5" cols="39">Je vous contacte ...</textarea>
+                    </div>
 
-        <div class="user-box">
-            <input name="btn_submit" type="submit" value="Envoyer" />
-            <input name="btn_cancel" type="reset" value="Annuler" />
-        </div>
-        </fieldset>
-    </form>
+                    <div class="text-center">
+                        <input class="ht-tm-element btn btn-shadow btn-outline-primary" name="btn_submit" type="submit" value="Envoyer" />
+                        <input class="ht-tm-element btn btn-shadow btn-outline-primary" name="btn_cancel" type="reset" value="Annuler" />
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+            </div>
 
+    </div
 </body>
 </html>

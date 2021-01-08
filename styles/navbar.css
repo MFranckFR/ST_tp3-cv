@@ -1,0 +1,30 @@
+.navbar ul{
+    font-family:Arial, "Cambria", "Calibri", "Didot", "Garamond", "Times New Roman", "Helvetica";
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+.navbar-item{
+    float:left;
+}
+.navbar-item a{
+    display: block;
+    color:cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-item a:hover{
+    /* border-top: 2px solid cadetblue; */
+    background-color:lightblue;
+    color: cadetblue;
+    
+}
+
+.active{
+    font-weight: bold;
+}

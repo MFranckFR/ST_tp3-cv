@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url("header.css");
+@import url("navbar.css");
+@import url('footer.css');
+@import url('contact.css');
+
+/* * {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+  } */
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    padding: 10pt;
+    margin-left:50px;
+    margin-right:30px;
+    font-size:12pt;
+}
+
+p {
+    margin:10px;
+    padding:5px;
+    padding-bottom: 5px;
+}
+
+/* Positionnement des visuels */
+
+.section-haut {
+    display: flex;
+    position:relative;
+}
+
+.section-milieu {
+    display:flex;
+    position:relative;
+}
+
+article {
+    padding:10pt;
+}
+.milieu-haut-gauche {
+    position:relative;
+    width:40%;
+    /* background-color:pink; */
+    background-color: cadetblue;
+}
+.milieu-haut-droite {
+    position:relative;
+    width:60%;
+    /* background-color:red; */
+    background-color: cadetblue;
+}
+
+.milieu-gauche {
+    position:relative;
+    width:75%;
+    /* background-color:lightblue; */
+    background-color: rgb(135, 198, 200);
+}
+.milieu-droite {
+    position:relative;
+    width:25%;
+    /* background-color:mediumaquamarine; */
+    background-color: cadetblue;
+}
+/* Decoration des boites */
+
+.fiche{
+    border-style: outset;
+    border-color: darkblue;
+    box-sizing:border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 5px;
+    padding:20px;
+    background-color: rgb(144, 208, 211);
+}
+
+.milieu-droite h3{
+    color:initial;
+    background-color: rgb(94, 156, 160);
+}
+
+.milieu-droite h2 {
+    color:initial;
+    background-color: rgb(144, 208, 211);
+}
+
+/* Misc */
+img.portrait {
+    float:left;
+    padding:10px;
+}
+.a_remplacer{
+    font-weight: bold;
+    color:gray;
+    text-decoration: line-through
+}
+
+.tableau1 table, td {
+    border: none;
+}
+
+th, caption{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.tableau1 img {
+    height:100px;
+}
+
+.tableau1 td{
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
+}
+
+table.tableau1 {
+    border:0;
+    table-layout: fixed;
+    text-align: center;
+    align-content:center;
+}
+
+th, td {
+    padding: 20px;
+}

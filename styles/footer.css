@@ -1,0 +1,16 @@
+.footer{
+    display: relative;
+    width: 100%;
+    justify-content: space-around;
+    margin: 50px 0;
+    background-color: cadetblue;
+    color:white;
+}
+.footer p {
+    width: 100%;
+   text-align: center;
+}
+.footer p a {
+    color:white;
+    text-decoration: underline;
+}

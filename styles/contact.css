@@ -1,0 +1,42 @@
+
+  body {
+    font-family:Arial, "Cambria", "Calibri", "Didot", "Garamond", "Times New Roman", "Helvetica";
+  }
+
+  fieldset{
+    border:none;
+  }
+.contact-box {
+    width:50%;
+    background:cadetblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .contact-box .user-box input {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+  }
+  .contact-box .user-box label {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .contact-box .user-box input:focus ~ label,
+  .contact-box .user-box input:valid ~ label {
+    color: #03e9f4;
+    font-size: 12px;
+  }
+
+
+  .contact-box textarea{
+    background-color: #95d6da;
+    font-weight: bold;
+    border: 1px solid #888;
+    resize:horizontal;
+  }

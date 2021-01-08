@@ -3,35 +3,25 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Franck MOREAU - CV - Resume</title>
+    <title>Franck - CV - Resume</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
+    <!-- Bootstrap - theme spacelab -->
+    <!-- <link media="screen" rel="stylesheet" type="text/css" href="styles/bs4/spacelab/bootstrap.min.css">
+    <script type="text/javascript" src="scripts/jquery.-3.5.6.min.js"></script>
+    <script type="text/javascript" src="scripts/bs4/bootstrap.min.js"></script> -->
+
+    <script type="text/javascript" src="scripts/bs5/bootstrap.min.js"></script>
+    <link href="styles/bs5/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link media="screen" rel="stylesheet" type="text/css" href="styles/bs4/spacelab/bootstrap.min.css">
 
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/contact.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/cv.css'>
-    <script src='scripts/cv.js'></script>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='styles/contact.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/cv.css'> -->
+    <!-- <script src='scripts/cv.js'></script> -->
 </head>
 <body>
     <header>
-        <div class="haut-page">
-            <div class="haut-gauche">
-                <h1>Franck<br/>
-                    &nbsp;<br/>
-                    &nbsp;<br/>
-                </h1>
-                <!-- <p>Haut- gauche</p> -->
-                <p class="moto">
-                    <span class="firstLetter">M</span>ethodology<br/>
-                    <span class="firstLetter">O</span>rganization<br/>
-                    <span class="firstLetter">R</span>.O.I.<br/>
-                    <span class="firstLetter">E</span>asy<br/>
-                    <span class="firstLetter">A</span>head<br/>
-                    <span class="firstLetter">U</span>seful
-                </p>
-            </div>
-
-            <div class="haut-droite">
+             <div class="haut-droite">
                 <!-- <p>Haut- droite</p> -->
                 <p><a href="docs/resume.pdf" title="CV download">Télécharger mon CV</a></p>
                 <p><a href="#" title="Partager">Partager</a></p>
@@ -40,34 +30,90 @@
         <nav class="navbar">
             <ul>
                 <li class="navbar-item active"><a href="index.html">Accueil</a></li>
-                <li class="navbar-item active"><a href="cv.html">Mon CV</a></li>
-                <li class="navbar-item active"><a href="projets.html">Projets r&eacute;alis&eacute;s</a></li>
-                <li class="navbar-item active"><a href="contact.html">Contact</a></li>
+                <li class="navbar-item"><a href="cv.html">Mon CV</a></li>
+                <li class="navbar-item"><a href="projets.html">Projets r&eacute;alis&eacute;s</a></li>
+                <li class="navbar-item"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
     </header>
+
+    <!-- BS example -->
+    <div class="jumbotron text-center">
+        <h1>Moi &amp;&amp; Ma Vie &amp;&amp; Mon oeuvre</h1>
+
+        <p>Vous êtes à la recherche d'un développeur pour gérer vos projets web ?</p>
+            <p>Je peux renforcer votre équipe autant sur la partie graphique que développement.
+                Seriez-vous prêt à me donner ma chance ?<br/>
+                Non ? Comme c'est étrange car ici....</p>
+            <p>on sait (pas trop) ce que l'on fait !</p>
+
+
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team8.png"
+                            class="center-block mw-25" alt="Keep your team fully informed">
+                        <h5>Keep your team fully informed</h5>
+                        <p></p>
+                        <p>Keeping the Mess Contained.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team9.png"
+                            class="center-block mw-50 float-center" alt="Same language for all">
+                        <h5>Same language for all</h5>
+                        <p></p>
+                        <blockquote>
+                            <p>People think that the opposite of communication is silence. Not so.
+                            The opposite of communication is miscommunication.
+                            Why? Because people are funny and they will make up stories to patch over the parts of
+                            life that you chose not to help them understand. <a href="https://douggeiger.wordpress.com/2010/03/12/the-opposite-of-communication/" target="target">Doug Geiger</a>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team10.png"
+                            class="center-block mw-50" alt="Discuss the project’s merits with the client">
+                        <h5>"Discuss the project’s merits with the client</h5>
+                        <blockquote>
+                            <p>Amid the stresses and strains of a workday, it is a chore to keep track of all of the stakeholders for our projects, 
+                            much less bother to consider their needs, prejudices and preferences. So we are silent when we ought to speak. 
+                            The obvious result of our silence is that feelings get hurt and problems, when they occur, fester.</p></blockquote>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel1" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel1" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+      </div>
+        
+
+
     <!-- section-haut-->
-    <section class="section-haut">
-        <article class="milieu-haut-gauche">
+    <section class="container">
+        <article class="row col-sm-2">
             <!-- <h2>Milieu-haut-gauche</h2> -->
-            <h2>Ici on sait (un peu près) ce que l'on fait !</h2>
-            <img width="450" src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team8.png" alt="clear communcation" title="clear communication" />
-        </article>
-        <article class="milieu-haut-droite">
+            
+                 </article>
+        <article class="col-sm-2">
             <!-- <h2>Milieu-haut-droite</h2> -->
-            <h2>Vous êtes à la recherche d'un développeur pour gérer vos projets web ?</h2>
-            <p>Je peux renforcer votre équipe autant sur la partie graphique que développement.</p>
-            <p>Seriez-vous prêt à me donner ma chance ?</p>
-            <p>Non ?</p>
-            <p>Comme c'est étrange....</p>
+            
         </article>
     </section>
     <!-- /section-haut -->
 
     <!-- section-milieu-->
-    <section class="section-milieu">
-        <article class="milieu-gauche fiche">
+    <section class="section-milieu ">
+        <article class="col-sm-4 fiche">
             <img class="portrait" src="images/large_653.png" alt="Photo CV" title="Photo CV"/>
             <h2>Présentation</h2>
 

@@ -26,7 +26,7 @@
 <body>
     <header>
 
-        <nav class="">
+        <nav class="container">
             <ul class="nav nav-tabs">
                 <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="cv.html">Mon CV</a></li>
@@ -43,173 +43,189 @@
     </header>
 
     <!-- BS example -->
-    <div class="jumbotron text-center">
-        <h1>Moi &amp;&amp; Ma Vie &amp;&amp; Mon oeuvre</h1>
+    <div class="container ht-tm-container" id="CntMain">
+        <div class="jumbotron text-center">
+            <h1 class="alert-primary">Ma Vie &amp;&amp; Mon oeuvre</h1>
 
-        <p>Vous êtes à la recherche d'un développeur pour gérer vos projets web ?</p>
-            <p>Je peux renforcer votre équipe autant sur la partie graphique que développement.
-                Seriez-vous prêt à me donner ma chance ?<br/>
-                Non ? Comme c'est étrange car ici....</p>
-            <p>on sait (pas trop) ce que l'on fait !</p>
+            <p>Vous êtes à la recherche d'un développeur pour gérer vos projets web ?</p>
+                <p>Je peux renforcer votre équipe autant sur la partie graphique que développement.
+                    Seriez-vous prêt à me donner ma chance ?<br/>
+                    Non ? Comme c'est étrange car ici....</p>
+                <p>on sait (pas trop) ce que l'on fait !</p>
 
 
-            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carousel1" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carousel1" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team8.png"
-                            class="center-block mw-25" alt="Keep your team fully informed">
-                        <h5>Keep your team fully informed</h5>
-                        <p></p>
-                        <p>Keeping the Mess Contained.</p>
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team8.png"
+                                class="float-center" alt="Keep your team fully informed">
+                            <h5>Keep your team fully informed</h5>
+                            <p></p>
+                            <p>Keeping the Mess Contained.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team9.png"
+                                class="float-center" alt="Same language for all">
+                            <h5>Same language for all</h5>
+                            <p></p>
+                            <blockquote>
+                                <p>People think that the opposite of communication is silence. Not so.
+                                The opposite of communication is miscommunication.
+                                Why? Because people are funny and they will make up stories to patch over the parts of
+                                life that you chose not to help them understand. <a href="https://douggeiger.wordpress.com/2010/03/12/the-opposite-of-communication/" target="target">Doug Geiger</a>
+                            </blockquote>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team10.png"
+                                class="float-center" alt="Discuss the project’s merits with the client">
+                            <h5>"Discuss the project’s merits with the client</h5>
+                            <blockquote>
+                                <p>Amid the stresses and strains of a workday, it is a chore to keep track of all of the stakeholders for our projects, 
+                                much less bother to consider their needs, prejudices and preferences. So we are silent when we ought to speak. 
+                                The obvious result of our silence is that feelings get hurt and problems, when they occur, fester.</p></blockquote>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team9.png"
-                            class="center-block mw-50 float-center" alt="Same language for all">
-                        <h5>Same language for all</h5>
-                        <p></p>
-                        <blockquote>
-                            <p>People think that the opposite of communication is silence. Not so.
-                            The opposite of communication is miscommunication.
-                            Why? Because people are funny and they will make up stories to patch over the parts of
-                            life that you chose not to help them understand. <a href="https://douggeiger.wordpress.com/2010/03/12/the-opposite-of-communication/" target="target">Doug Geiger</a>
-                        </blockquote>
+                    <a class="carousel-control-prev" href="#carousel1" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel1" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+        </div>
+
+        <!-- /section-haut -->
+
+        <!-- section-milieu-->
+        <div id="milieu1" class="row">
+            <div id="presentation" class="col float-center text-center">
+                <h2 class="alert-primary">Présentation</h2>
+                <p class="bigger">A votre écoute</p>
+                <p class="small">(mais pas trop longtemps)</p>
+                <img class="portrait" src="images/large_653.png" alt="Photo CV" title="Photo CV" />
+                <p>Vous êtes à la recherche d'une personne compétente et efficace pour gérer vos projets web ?</p>
+                <p>Actuellement je suis <span class="a_remplacer">sur mon canapé</span>, <br />
+                    je fais <span class="a_remplacer">un TP dans le cadre d'une formation "Développeur Front-End"</span>.<br />
+                    Plus tard je <span class="a_remplacer">préparerai à manger pour la famille car il est onze heures.</span>
+                </p>
+            </div>
+        </div>
+                <!-- <h2>Milieu-gauche</h2> -->
+        <div id="milieu2" class="">
+            <h2 class="alert-primary text-center">Services</h2>
+            <div id="services" class="row">
+                <div class="col-sm" id="sGraphisme">
+                    <h4>Graphisme</h4>
+                    <p>Séduire en offrant à vos visiteurs une navigation et une ergonomie adaptées
+                        à leurs habitudes et leurs équipements</p>
+                    <img class="img-fluid" src="images/graphics_pexels-akwice-3094799_400x.jpg" alt="graphisme" title="graphisme"/>
+                </div>
+
+                <div class="col-sm" id="sIntegration">
+                    <h4>Integration</h4>
+                    <p>Intégration responsive design compatible tout navigateur et respectueux du w3c</p>
+                    <img class="img-fluid" src="images/integration_istockphoto-120718326-400x.jpg" alt="integration" title="integration"/>
+                </div>
+
+                <div class="col-sm" id="sDeveloppement">
+                    <h4>Developpement</h4>
+                    <p>Développement parfaitement fonctionnel et sécurisé</p>
+                    <img class="img-fluid" src="images/pexels-develop_photo-3861959_x400.jpg" alt="developpement" title="developpement"/>
+                </div>
+
+                <div class="col-sm" id="sReferencement">
+                    <h4>Référencement</h4>
+                    <p>Un maximum de traffic pour votre site web</p>
+                    <img class="img-fluide" src="images/reference_pexels-photo-1068340_400x.jpg" alt="referencement" title="referencement"/>
+                </div>
+            </div>
+        </div>
+
+            <div id="ctnFiches" class="flex">
+                <!--<h2>Milieu-droite</h2>-->
+                <h2 class="alert-primary text-center">Qui l'est qui le kiki ?</h2>
+                <div class="row float-center">
+                    <div class="col-sm">
+                        <h3>Qui étais-je ?</h3>
+                        <p>Description en quelques lignes...</p>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/11-Tips-on-How-to-Communicate-Effectively-With-the-Client-and-the-Team10.png"
-                            class="center-block mw-50" alt="Discuss the project’s merits with the client">
-                        <h5>"Discuss the project’s merits with the client</h5>
-                        <blockquote>
-                            <p>Amid the stresses and strains of a workday, it is a chore to keep track of all of the stakeholders for our projects, 
-                            much less bother to consider their needs, prejudices and preferences. So we are silent when we ought to speak. 
-                            The obvious result of our silence is that feelings get hurt and problems, when they occur, fester.</p></blockquote>
+                    <div class="col-sm">
+                        <h3>Qui suis-je ?</h3>
+                        <p>Description en quelques lignes...</p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Qui serai-je ?</h3>
+                        <p>Description en quelques lignes...</p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Qui serais-je si...?</h3>
+                        <p>Description en quelques lignes...</p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>C'est à qui qu'tu causes ?</h3>
+                        <p>Description en quelques lignes...</p>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carousel1" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel1" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </a>
-            </div>
-      </div>
 
-    <!-- /section-haut -->
+                <div id="ctnExperiences">
+                    <div class="fiche">
+                        <h2 class="alert-primary text-center">Expériences</h2>
+                        <ul class="experiences">
+                            <li>
+                                Expérience 1
+                            </li>
+                            <li>
+                                Expérience 2
+                            </li>
+                            <li>
+                                Expérience 3
+                            </li>
+                        </ul>
 
-    <!-- section-milieu-->
-    <section class="section-milieu">
-       <h2>Présentation</h2>
-        <article class="col-sm-4 fiche">
-            <h3>A votre écoute (mais pas trop longtemps)</h3>
-            <img class="portrait" src="images/large_653.png" alt="Photo CV" title="Photo CV"/>
-            <p>Vous êtes à la recherche d'une personne compétente et efficace pour gérer vos projets web ?</p>
-            <p>Actuellement je suis <span class="a_remplacer">sur mon canapé</span>, <br/>
-                je fais <span class="a_remplacer">un TP dans le cadre d'une formation "Développeur Front-End"</span>.<br/>
-                Plus tard je <span class="a_remplacer">préparerai à manger pour la famille car il est onze heures.</span>
-            </p>
-            <!-- <h2>Milieu-gauche</h2> -->
-
-           <table class="tableau1">
-               <caption>Services</caption>
-               <thead>
-                <tr>
-                    <th>Graphisme</th>
-                    <th>Intégration</th>
-                    <th>Développement</th>
-                    <th>Référencement</th>
-                </tr>
-                <tr>
-                    <td><img src="images/dragon.jpg" alt="graphisme" title="graphisme"/></td>
-                    <td><img src="images/dragon.jpg" alt="Intégration" title="Intégration" /></td>
-                    <td><img src="images/dragon.jpg" alt="Développement" title="Développement" /></td>
-                    <td><img src="images/dragon.jpg" alt="Référencement" title="Référencement" /></td>
-                </tr>
-                <tr>
-                    <td>Séduire e offrant à vos visiteurs une navigation et une ergonomie adaptées
-                        à leurs hhabitudes et leurs équipements
-                    </td>
-                    <td>Intégration responsive design compatible tout navigateur et respectueux du w3c</td>
-                    <td>Développement parfaitement fonctionnel et sécurisé</td>
-                    <td>Un maximum de traffic pour votre site web</td>
-                </tr>
-            </thead>
-           </table>
-        </article>
-
-        <article class="milieu-droite">
-            <!--<h2>Milieu-droite</h2>-->
-            <h2>Qui l'est qui le kiki ?</h2>
-            <div class="fiche">
-            <h3>Qui étais-je ?</h3>
-            <p>Description en quelques lignes...</p>
-
-            <h3>Qui suis-je ?</h3>
-            <p>Description en quelques lignes...</p>
-
-            <h3>Qui serai-je ?</h3>
-            <p>Description en quelques lignes...</p>
-
-            <h3>Qui serais-je ?</h3>
-            <p>Description en quelques lignes...</p>
-
-            <h3>C'est à qui qu'tu causes ?</h3>
-            <p>Description en quelques lignes...</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="fiche">
-                <h3>Expériences</h3>
-                <ul class="experiences">
-                    <li>
-                        Expérience 1
-                    </li>
-                    <li>
-                        Expérience 2
-                    </li>
-                    <li>
-                        Expérience 3
-                    </li>
-                </ul>
 
+            <div class="flex card" id="CtnContact">
+            <div class="contact card-body">
+                <form class="contact-box" action="mailto:franck@mailcatch.com&subject=ContactDuSite&bcc=emmanuel.macron@mailcatch.com" method="post" name="basic_form" enctype="text/plain">
+                    <fieldset>
+                        <h2 class="alert-primary">Contactez-moi !</h2>
+                    <div class="user-box">
+                        <input class="form-control" type="text" name="name" size="30" value="Votre nom complet" />
+                    </div>
+
+                    <div class="user-box">
+                        <input class="form-control" type="text" name="email" size="30" value="Votre email" />
+                    </div>
+
+                    <div class="user-box">
+                        <textarea class="form-control" rows="5" cols="39">Je vous contacte ...</textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <input class="ht-tm-element btn btn-shadow btn-outline-primary" name="btn_submit" type="submit" value="Envoyer" />
+                        <input class="ht-tm-element btn btn-shadow btn-outline-primary" name="btn_cancel" type="reset" value="Annuler" />
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
             </div>
 
-          <div class="contact">
-            <form class="contact-box" action="mailto:f.moreau@mailcatch.com&subject=ContactDuSite&bcc=emmanuel.macron@mailcatch.com" method="post" name="basic_form" enctype="text/plain">
-                <fieldset>
-                    <h2>Contactez-moi !</h2>
-                <div class="user-box">
-                    <input type="text" name="name" size="30" value="Votre nom complet" />
-                </div>
-        
-                <div class="user-box">
-                    <input type="text" name="email" size="30" value="Votre email" />
-                </div>
-        
-                <div class="user-box">
-                    <textarea rows="5" cols="39">Je vous contacte ...</textarea>
-                </div>
-        
-                <div class="user-box">
-                    <input name="btn_submit" type="submit" value="Envoyer" />
-                    <input name="btn_cancel" type="reset" value="Annuler" />
-                </div>
-                </fieldset>
-            </form>
-          </div>>
-        </article>
-    </section>
-    <!-- /section-milieu-->
-
-    <!-- footer -->
-    <footer class="footer">
-        <p class="info_legales">Informations - Mentions l&eacute;gales - <a href="mailto:franck.moreau@mailcatch.com">Contact</a></p>
+     <!-- footer -->
+    <footer class="footer text-center">
+        <p class="info_legales">Informations - Mentions l&eacute;gales - <a href="mailto:franck@mailcatch.com">Contact</a></p>
     </footer>
 
-
+    </div>
+    <!-- /section-milieu-->
 </body>
 </html>

@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Contact</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/contact.css'>
-    <script src='scripts/main.js'></script>
-</head>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Contact</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <!-- Bootstrap theme 'Neon Glow' by Alexander Rechsteiner - https://hackerthemes.com/bootstrap-themes/neon-glow/ -->
+
+        <link type="text/css"  rel="stylesheet" href="styles/bs-theme-neon-glow/bootstrap4-neon-glow.min.css">
+
+        <link type="text/css" rel="stylesheet" href="styles/bs-theme-neon-glow/bootstrap-theme-demo-styles.css">
+        <link type="text/css" rel="stylesheet" href="styles/bs-theme-neon-glow/fontawesome.v5.6.3-all.css">
+
+        <link type="text/css"  href="styles/bs-theme-neon-glow/googleapis-family-roboto.css" rel="stylesheet">
+        <link type="text/css" rel='stylesheet' href='styles/bs-theme-neon-glow/hack-v2.020.min.css'>
+
+        <!-- <script type="text/javascript" src="scripts/jquery.-3.5.6.min.js"></script> -->
+        <script src="scripts/bs5/bootstrap.min.js"></script>
+
+        <script src='scripts/main.js'></script>
+
+        <script>isDarkTheme=false;</script>
+    </head>
 <body>
     <header>
-        <div class="haut-page">
-            <div class="haut-gauche">
-                <h1>Franck<br/>
-                    &nbsp;<br/>
-                    &nbsp;<br/>
-                </h1>
-                <!-- <p>Haut- gauche</p> -->
-                <p class="moto">
-                    <span class="firstLetter">M</span>ethodology<br/>
-                    <span class="firstLetter">O</span>rganization<br/>
-                    <span class="firstLetter">R</span>.O.I.<br/>
-                    <span class="firstLetter">E</span>asy<br/>
-                    <span class="firstLetter">A</span>head<br/>
-                    <span class="firstLetter">U</span>seful
-                </p>
-            </div>
-
-            <div class="haut-droite">
-                <!-- <p>Haut- droite</p> -->
-                <p><a href="docs/resume.pdf" title="CV download">Télécharger mon CV</a></p>
-                <p><a href="#" title="Partager">Partager</a></p>
-            </div>
-        </div>
-        <nav class="navbar">
-            <ul>
-                <li class="navbar-item active"><a href="index.html">Accueil</a></li>
-                <li class="navbar-item active"><a href="cv.html">Mon CV</a></li>
-                <li class="navbar-item active"><a href="projets.html">Projets r&eacute;alis&eacute;s</a></li>
-                <li class="navbar-item active"><a href="contact.html">Contact</a></li>
+        <nav class="container">
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="cv.html">Mon CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="projets.html">Projets r&eacute;alis&eacute;s</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
     </header>
 
-    <h1>Contact</h1>
+    <div class="container ht-tm-container" id="CntMain">
+        <h1 class="alert-primary text-center">Contact</h1>
 
-    <p>Envoyez moi votre demande.</p>
-    <form class="contact-box" action="mailto:f.moreau@mailcatch.com&subject=ContactDuSite&bcc=emmanuel.macron@mailcatch.com" method="post" name="basic_form" enctype="text/plain">
-        <fieldset>
-        <div class="user-box">
-            <input type="text" name="name" size="50" value="Votre nom complet" />
-        </div>
+        <p>Vous pouvez me contacter. Ya des gens ki'ont essayé...</p>
+     
+        <div class="flex card" id="CtnContact">
+            <div class="contact card-body">
+                <form class="contact-box" action="mailto:franck@mailcatch.com&subject=ContactDuSite&bcc=emmanuel.macron@mailcatch.com" method="post" name="basic_form" enctype="text/plain">
+                    <fieldset>
+                        <h2 class="alert-primary">Contactez-moi !</h2>
+                    <div class="user-box">
+                        <input class="form-control" type="text" name="name" size="30" value="Votre nom complet" />
+                    </div>
 
-        <div class="user-box">
-            <input type="text" name="email" size="50" value="Votre email" />
-            <abbr title="required">*</abbr>
-        </div>
+                    <div class="user-box">
+                        <input class="form-control" type="text" name="email" size="30" value="Votre email" />
+                    </div>
 
-        <div class="user-box">
-            <textarea rows="5" cols="50">Je vous contacte ...</textarea>
-        </div>
+                    <div class="user-box">
+                        <textarea class="form-control" rows="5" cols="39">Je vous contacte ...</textarea>
+                    </div>
 
-        <div class="user-box">
-            <input name="btn_submit" type="submit" value="Envoyer" />
-            <input name="btn_cancel" type="reset" value="Annuler" />
-        </div>
-        </fieldset>
-    </form>
+                    <div class="text-center">
+                        <input class="ht-tm-element btn btn-shadow btn-outline-primary" name="btn_submit" type="submit" value="Envoyer" />
+                        <input class="ht-tm-element btn btn-shadow btn-outline-primary" name="btn_cancel" type="reset" value="Annuler" />
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+            </div>
 
+    </div
 </body>
 </html>
